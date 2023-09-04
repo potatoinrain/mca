@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="HelloBean" class="spring.hello.bean.HelloBean" scope="singleton" init-method="init"></bean>
+
+    <bean id="HelloBeanNameAware" class="spring.hello.bean.HelloBeanNameAware" ></bean>
+
+<!--    <bean class="spring.hello.bean.MyBeanFactoryPostProcessor"></bean>-->
+
+</beans>
