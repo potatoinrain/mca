@@ -5,7 +5,7 @@
 
     <bean id="HelloBean" class="spring.hello.bean.HelloBean" scope="singleton" init-method="init"></bean>
 
-    <bean id="HelloBeanNameAware" class="spring.hello.bean.HelloBeanNameAware" ></bean>
+<!--    <bean id="HelloBeanNameAware" class="spring.hello.bean.HelloBeanNameAware" ></bean>-->
 
 <!--    <bean class="spring.hello.bean.MyBeanFactoryPostProcessor"></bean>-->
 
