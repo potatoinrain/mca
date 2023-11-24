@@ -4,8 +4,9 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean id="HelloBean" class="spring.hello.bean.HelloBean" scope="singleton" init-method="init"></bean>
+<!--    <bean id="HelloBean1" class="spring.hello.bean.HelloBean" scope="singleton" init-method="init"></bean>-->
 
-<!--    <bean id="HelloBeanNameAware" class="spring.hello.bean.HelloBeanNameAware" ></bean>-->
+    <bean id="HelloBeanNameAware" class="spring.hello.bean.HelloBeanNameAware" ></bean>
 
 <!--    <bean class="spring.hello.bean.MyBeanFactoryPostProcessor"></bean>-->
 
